@@ -11,7 +11,7 @@ body {
     grid-template-columns: 1fr 4fr;
     
 
-    height: 50vw;
+    height: 100%;
 }
 .interact{
     display: grid;
@@ -22,7 +22,7 @@ body {
 dashboard{
     display: grid;
     background-color: rgba(25,146,212,255);
-    grid-template-rows: 0.2fr 0.5fr 0.5fr;
+    grid-template-rows: 0.1fr 0.2fr 0.1fr 1fr;
     gap: 20px;
     color: white;
     font-weight: bold;
