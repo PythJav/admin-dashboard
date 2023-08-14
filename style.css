@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    font-family: 'Roboto';
+}
+html,
+body {
+  margin: 0px;
+}
+.project{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    
+
+    height: 50vw;
+}
+
+dashboard{
+    display: grid;
+    background-color: rgba(25,146,212,255);
+    grid-template-rows: 0.2fr 0.5fr 0.5fr;
+    gap: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+.fhalf,.bothalf{
+    display: grid;
+}
+
+content{
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+}
+
+header{
+    gap: 5px;
+    display: grid;
+    grid-row: 1/2;
+    padding: 20px;
+
+}
+
+img{
+    height: 100%;
+   /* object-fit: contain; */
+   position: relative;
+
+}
+
+.hFirst{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    height: 20px;
+}
+.searchBar,.notification{
+    height: inherit;
+}
+.name  {
+    height: inherit;
+}
+.hSec{
+    height: 40px;
+    display: grid;
+    align-items: baseline;
+    grid-template-columns: 2.5fr 1fr;
+}
+input[type="search"]{
+    width:70% ;
+    appearance: none;
+    border-radius: 4px;
+    background-color: rgba(225,232,240,255)
+    ;
+}
+
+.searchBar{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+
+}
+botContent{
+    display: grid;
+    grid-template-columns: 2.4fr 1fr;
+    background-color: rgba(225,232,240,255);
+    padding-top: 20px;
+}
+proLeft{
+    /* margin-left: 20\px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10px 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+
+
+proRight{
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+pHeader{
+    grid-column: 1/-1;
+    margin-left: 25px;
+}
+
+button{
+    appearance: none;
+    position: relative;
+
+    background-color: #1992d4;
+    border-radius: 3px;
+    color: white;
+    border: 2px solid transparent;
+    padding: 4px;
+    width: 60px;
+}
+.projects   {
+    height: auto;
+    width: auto;
+    border-left: 5px solid #f0b429;
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+}
+pTitle{
+    font-weight: bold;
+}
+.comment{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.hSec{
+    position: relative;
+}
+
+.prName{
+    /* position:absolute;
+    height: 100%; */
+}
