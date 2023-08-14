@@ -13,6 +13,11 @@ body {
 
     height: 50vw;
 }
+.interact{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 dashboard{
     display: grid;
@@ -63,7 +68,7 @@ img{
     height: 40px;
     display: grid;
     align-items: baseline;
-    grid-template-columns: 2.5fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
 }
 input[type="search"]{
     width:70% ;
@@ -96,7 +101,25 @@ proLeft{
 proRight{
 
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 30px 1fr 30px 1fr;
+    gap: 30px;
+}
+.announce{
+    display: grid;
+    /* border-radius: 20px; */
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    /* overflow: hidden; */
+
+
+    grid-template-rows:1fr 1fr 1fr;
+
+}
+
+.rightT{
+    margin-left: 30px;
 }
 pHeader{
     grid-column: 1/-1;
@@ -121,9 +144,17 @@ button{
     margin: 20px;
     background-color: white;
     padding: 20px;
-    border-radius: 4px;
+    border-radius: 20px;
 }
-pTitle{
+
+.anno{
+    background-color: white;
+    
+    padding: 20px;
+    
+
+}
+pTitle,.aTtile{
     font-weight: bold;
 }
 .comment{
@@ -136,6 +167,30 @@ pTitle{
 }
 
 .prName{
-    /* position:absolute;
-    height: 100%; */
+    margin: auto;
+}
+
+.midAnn{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.trending{
+    display: grid;
+    /* grid-template-columns:1fr 4fr ; */
+    grid-template-rows:  repeat(4,1fr
+    );
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.trend{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+   
+}
+tpic{
+    height: 100px;
 }
